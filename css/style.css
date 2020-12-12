@@ -1,0 +1,79 @@
+body {
+    font-family: sans-serif;
+    background: #ebebeb;
+    font-size: 1.2rem;
+}
+
+header {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px grey solid;
+}
+
+main {
+    max-width: 1000px;
+    margin: 20px auto 0;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+    background: grey;
+    color: white;
+}
+
+td {
+    padding: 10px;
+    border-collapse: collapse;
+    background: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+.total {
+    text-align: right;
+    background: transparent;
+    font-weight: bold;
+}
+
+.key {
+    margin-bottom: 13px;
+}
+
+.variable {
+    padding: 5px 10px;
+}
+
+.string {
+    background: #fff7b9;
+}
+
+.number {
+    background: #b1d9f1;
+}
+
+.boolean {
+    background: #e7c3ef;
+}
+
+.key > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.indicator {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    margin-right: 10px;
+}

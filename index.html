@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adding string variables to HTML</title>
+        <link href="css/style.css" rel="stylesheet" />
+        <link rel="icon" href="data:;base64,=" />
+    </head>
+    <body>
+        <header>
+            <h1>String Variables</h1>
+            <div class="user">Hello <span class="variable string" id="name"></span></div>
+        </header>
+        <main>
+            <h2>Shopping cart</h2>
+            <div class="key">
+                <div><span class="indicator string"></span> - string</div>
+                <div><span class="indicator number"></span> - number</div>
+                <div><span class="indicator boolean"></span> - boolean</div>
+            </div>
+            <table>
+                <thead>
+                    <th>Product name</th>
+                    <th>On special</th>
+                    <th>Price</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="variable string" id="productName1"></span></td>
+                        <td><span class="variable boolean" id="onSpecial1">true</span></td>
+                        <td><span class="variable number" id="price1">10</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="variable string" id="productName2"></span></td>
+                        <td><span class="variable boolean" id="onSpecial2">false</span></td>
+                        <td><span class="variable number" id="price2">22.50</span></td>
+                    </tr>
+                    <tr>
+                        <td><span class="variable string" id="productName3"></span></td>
+                        <td><span class="variable boolean" id="onSpecial3">true</span></td>
+                        <td><span class="variable number" id="price3">100</span></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="total">Total</td>
+                        <td><span class="variable number" id="total">132.50</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>
